@@ -1,0 +1,143 @@
+.nav{
+    font-weight: 500;
+    margin-bottom: -20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-show-1{
+    color: rgb(94, 99, 98);
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    font-family: cursive;
+}
+
+
+.pos-top{
+    position: relative;
+    top: 20px;
+}
+
+.h5-header{
+    font-size: 15px;
+    font-family: cursive;
+    color: #808285;
+    font-weight:bolder;
+    
+}
+
+.h6-header{
+    line-height:65px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight:bolder;
+}
+.h7-header{
+    font-size: 18px;
+    font-family: cursive;
+    font-weight:bolder;
+}
+
+.cap-text{
+    font-size: 14px;
+    font-family: cursive;
+    font-weight:bolder;
+    
+    color: #87888a;
+}
+.h8-header{
+    color: #5f6166;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight:bolder;
+    margin-top: 3rem;
+    
+}
+
+.w-h{
+    color: #5f6166;
+    font-size: 12px;
+    font-family: cursive;
+    font-weight:bolder;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 45%;
+  margin: 0 auto;
+}
+.container h1 {
+  font-weight: bold;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  /* margin: 0 auto; */
+  background: #eaeaea;
+  border-radius: 10px;
+  padding: 1rem 0.4rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.quantity-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0px 8px;
+  cursor: pointer;
+}
+.quantity-btn svg {
+  width: 15px;
+  height: 15px;
+}
+.quantity-input {
+  outline: none;
+  user-select: none;
+  text-align: center;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+}
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.btn-styl-cart{
+    height: 28px;
+    font-size: 15px;
+    font-family: cursive;
+    color: #808285;
+    font-weight:bolder;
+    position: relative;
+    border-radius: 10px;
+    left: 20px;
+    
+}
+
+.AA{
+    white-space: nowrap;
+}
